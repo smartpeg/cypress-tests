@@ -1,24 +1,19 @@
-# cypress-tests
-
-Questa repository mostra come utilizzare **Cypress** per eseguire test end-to-end su un'applicazione web.
-
+# 📐📐📐
+Cypress per test di un componente Angular
+## Dipendenze
+```bash
+sudo apt-get install -y libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2t64 libxtst6 xauth xvfb
+curl -fsSL https://raw.githubusercontent.com/mklement0/n-install/stable/bin/n-install | bash -s latest
+source ~/.bashrc
+npm install -g @angular/cli
+npm install -D @angular/cli @angular-devkit/build-angular @angular/core @angular/common @angular/platform-browser-dynamic
+```
+## Preparazione
+```bash
+ng new test-component
+cd test-component
+```
 ## Installazione
-
-1. Clona la repo:
-   ```bash
-   git clone <repo-url>
-   cd cypress-tests
-   ```
-
-2. Installa le dipendenze:
-   ```bash
-   npm install cypress --save-dev
-   ```
-
-3. Avvia Cypress:
-   ```bash
-   npx cypress open
-   ```
 ## Obiettivo
 
 L'obiettivo di questo esperimento è stato:
