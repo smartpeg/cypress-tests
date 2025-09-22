@@ -12,6 +12,7 @@ npm install -D @angular/cli @angular-devkit/build-angular @angular/core @angular
 ```bash
 ng new test-component
 cd test-component
+npm install cypress --save-dev
 ```
 ## Installazione
 ## Obiettivo
